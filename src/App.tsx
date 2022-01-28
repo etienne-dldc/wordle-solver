@@ -1,6 +1,5 @@
 import { useMemo, useState } from "react";
 import dataRaw from "../data/result.json";
-import demo from "./demo.webm";
 
 export const data = new Map<string, Array<boolean>>(
   Object.entries(dataRaw).map(([key, value]) => [
@@ -48,7 +47,6 @@ function App() {
   return (
     <div className="main">
       <h1>Wordle Twitter Solver</h1>
-      <video src={demo} controls />
       <p className="infos">
         Copy wordle tweets then past them in the input below. With enough tweets
         it will find the word of the day.
