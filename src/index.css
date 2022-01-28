@@ -22,6 +22,13 @@ code {
   flex-direction: column;
 }
 
+video {
+  margin: 0;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
 textarea {
   max-width: 500px;
   resize: none;
