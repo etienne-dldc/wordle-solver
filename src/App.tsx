@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="main">
-      <h1>Twitter Wordle Solver</h1>
+      <h1>Wordle Twitter Solver</h1>
       <p className="infos">
         Copy wordle tweets then past them in the input below. With enough tweets
         it will find the word of the day.
